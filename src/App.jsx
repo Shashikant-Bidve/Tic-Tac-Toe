@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import { Stack, TextField } from '@mui/material'
@@ -9,7 +9,7 @@ import Board from './components/Board'
 
 
 function App() {
-  const [start, setStart] = useState(false);
+  const [start, setStart] = React.useState(false);
 
   return (
     <>
